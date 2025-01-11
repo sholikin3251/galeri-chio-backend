@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">LOGO</div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="#">Kategori</a>
+            <a href="#">Pages</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Registrasi</h1>
+        <form action="/registrasi" method="POST">
+            <label>Nama:</label>
+            <input type="text" name="nama" required>
+            <label>No. Telp:</label>
+            <input type="tel" name="telp" required>
+            <label>Email:</label>
+            <input type="email" name="email" required>
+            <label>Password:</label>
+            <input type="password" name="password" required>
+            <button type="submit">Registrasi</button>
+        </form>
+    </main>
+</body>
+</html>
